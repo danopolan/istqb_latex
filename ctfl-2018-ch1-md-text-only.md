@@ -1,4 +1,4 @@
-An h1 header
+An h1 header for main sections
 ============
 \label{first:section}
 
@@ -22,7 +22,7 @@ in chapters 12--14"). Three dots ... will be converted to an ellipsis (only if y
 
 
 
-An h2 header
+An h2 header for subchapters
 ------------
 
 Here's a numbered list (use `hashEnumerators` option if you want to use hashes):
@@ -53,7 +53,7 @@ If you have `minted` loaded in your project you get syntax-highlighted code:
 ?>
 ~~~~
 
-### An h3 header ###
+### An h3 header for sub-sub chapters ###
 
 Now a nested list:
 
