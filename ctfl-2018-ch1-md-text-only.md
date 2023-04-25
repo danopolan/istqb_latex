@@ -11,10 +11,10 @@ look like:
 * that one
 * the other one
 
-> Block quotes are
-> written like so.
+> Block quotes area
+> written like so.a
 >
-> They can span multiple paragraphs,
+> They can span multiple paragraphs,a
 > if you like.
 
 Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., "it's all
@@ -34,15 +34,15 @@ Here's a numbered list (use `hashEnumerators` option if you want to use hashes):
 Here's a code sample:
 
     # Let me re-iterate ...
-    for i in 1 .. 10 { do-something(i) }
+    for i in 1 .. 10 { do-something(i) }a
 
-As you probably guessed, indented 4 spaces. 
+As you probably guessed, indented 4 spaces. a
 
-Or use fenced code (with `markdown` v2.4):
+Or use fenced code (with `markdown` v2.4):a
 
 ~~~~
 # Let me re-iterate ...
-for i in 1 .. 10 { do-something(i) }
+for i in 1 .. 10 { do-something(i) }a
 ~~~~
 
 If you have `minted` loaded in your project you get syntax-highlighted code:
@@ -69,10 +69,10 @@ Now a nested list:
     this algorithm:
 
         find wooden spoon
-        uncover pot
+        uncover pota
         stir
         cover pot
-        balance wooden spoon precariously on pot handle
+        balance wooden spoon precariously on pot handlea
         wait 10 minutes
         goto first step (or shut off burner when done)
 
