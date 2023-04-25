@@ -1,4 +1,4 @@
-An h1 header for main sections
+h1 header for main sections - addition #1
 ============
 \label{first:section}
 
