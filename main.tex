@@ -1,51 +1,57 @@
 \documentclass{article}
 
 \usepackage[fencedCode,inlineFootnotes,citations,definitionLists,hashEnumerators,smartEllipses,pipeTables,tableCaptions,hybrid]{markdown}
+\usepackage[margin=1in,headsep=0.5in]{geometry}
+\usepackage{fancyhdr}
+\usepackage{lipsum}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage{lastpage}
 
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage[a4paper,margin=1.5cm]{geometry}
-\usepackage{fullpage}
-\usepackage[numbers]{natbib}
-\usepackage{minted}
+% Define the header and footer
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\begin{tabular}[b]{@{}l@{}}
+\fontsize{12}{14}\selectfont Certified Tester \\
+\fontsize{10}{12}\selectfont Foundation Level
+\end{tabular}}
+\chead{\includegraphics[width=2cm]{./content/istqb-logo.png}}
+\rhead{\fontsize{8}{10}\selectfont International \\ Software Testing \\ Qualifications Board}
+\lfoot{\begin{tabular}[b]{@{}l@{}}
+\fontsize{10}{12}\selectfont Left Footer Text #1 \\
+\fontsize{8}{10}\selectfont Left Footer Text #2
+\end{tabular}}
+\cfoot{\fontsize{8}{10}\selectfont Page \thepage\ of \pageref{LastPage}}
+\rfoot{\begin{tabular}[b]{@{}r@{}}
+\fontsize{10}{12}\selectfont Right Footer Text #1 \\
+\fontsize{8}{10}\selectfont Right Footer Text #2
+\end{tabular}}
 
-\setkeys{Gin}{width=\linewidth,totalheight=\textheight,keezpaspectratio}
+% % Define title formats
+% \renewcommand{\footrulewidth}{0.4pt}
 
-%% You can re-define how links are rendered: uncomment the following to get hyperlinked text instead of footnotes
-% \usepackage{hyperref}
-%%%begin novalidate
-% \markdownSetup{rendererPrototypes={
-%   link = {\href{#2}{#1}},
-%   image = {\begin{figure}[hbt!]
-%     \centering
-%     \includegraphics{#3}%
-%     \ifx\empty#4\empty\else
-%     \caption{#4}%
-%     \fi
-%     \label{fig:#1}%
-%     \end{figure}}
-% }}
-%%%end novalidate
-
-\title{Writing Markdown in \LaTeX\ documents}
-\author{}
-\date{}
+% Define title formats
+\newcommand{\mytitle}[1]{\noindent\textbf{\LARGE #1}\par\hrule\vspace{0.5cm}}
+\newcommand{\mysubtitle}[1]{\noindent\textbf{\Large #1}\par\hrule\vspace{0.3cm}}
+\newcommand{\mysubsub}[1]{\noindent\textbf{\large #1}\par\hrule\vspace{0.2cm}}
 
 \begin{document}
 
-\maketitle
+\titleformat{\section}
+{\normalfont\Large\bfseries}{\hrulefill\hspace{0.5em}\thesection\hspace{0.5em}\hrulefill}{0.5em}{}
+\titleformat{\subsection}
+{\normalfont\large\bfseries}{\hrulefill\hspace{0.5em}\thesubsection\hspace{0.5em}\hrulefill}{0.5em}{}
+\titleformat{\subsubsection}
+{\normalfont\normalsize\bfseries}{\hrulefill\hspace{0.5em}\thesubsubsection\hspace{0.5em}\hrulefill}{0.5em}
 
-Including an external \texttt{.md} file, distributed with the \texttt{markdown} package:
+\section{Fundamentals of Testing}
+\markdownInput{./content/1_fundamentals_of_testing.md}
+\subsection{Level 2 Heading}
+\lipsum[3-4]
+\subsubsection{Level 3 Heading}
+\lipsum[5-6]
 
-% \markdownInput{example.md}
-
-% \clearpage
-
-(Markdown example text adapted from \url{http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html})
-
-\markdownInput{ctfl-2018-ch1-md-text-only.md}
-
-\bibliographystyle{plainnat}
-\bibliography{refs}
+\section{Markdown showcase}
+\markdownInput{./content/example.md}
 
 \end{document}

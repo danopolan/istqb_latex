@@ -1,5 +1,4 @@
-h1 header for main sections - addition #1
-============
+# Markdown showcase
 \label{first:section}
 
 Paragraphs are separated by a blank line. 
@@ -21,10 +20,7 @@ Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., "it's all
 in chapters 12--14"). Three dots ... will be converted to an ellipsis (only if you enable the `smartEllipses` option).
 
 
-
-An h2 header for subchapters
-------------
-
+## Subchapter
 Here's a numbered list (use `hashEnumerators` option if you want to use hashes):
 
 #. first item
@@ -53,7 +49,7 @@ If you have `minted` loaded in your project you get syntax-highlighted code:
 ?>
 ~~~~
 
-### An h3 header for sub-sub chapters ###
+### Sub sub section ###
 
 Now a nested list:
 
