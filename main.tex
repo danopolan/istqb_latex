@@ -7,6 +7,7 @@
 \usepackage{graphicx}
 \usepackage{titlesec}
 \usepackage{lastpage}
+\usepackage{enumitem}
 
 % Define the header and footer
 \pagestyle{fancy}
@@ -26,32 +27,14 @@
 \fontsize{10}{12}\selectfont Right Footer Text #1 \\
 \fontsize{8}{10}\selectfont Right Footer Text #2
 \end{tabular}}
+\renewcommand{\footrulewidth}{0.4pt}
 
-% % Define title formats
-% \renewcommand{\footrulewidth}{0.4pt}
-
-% Define title formats
-\newcommand{\mytitle}[1]{\noindent\textbf{\LARGE #1}\par\hrule\vspace{0.5cm}}
-\newcommand{\mysubtitle}[1]{\noindent\textbf{\Large #1}\par\hrule\vspace{0.3cm}}
-\newcommand{\mysubsub}[1]{\noindent\textbf{\large #1}\par\hrule\vspace{0.2cm}}
+% Define paragraphs
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
 
 \begin{document}
-
-\titleformat{\section}
-{\normalfont\Large\bfseries}{\hrulefill\hspace{0.5em}\thesection\hspace{0.5em}\hrulefill}{0.5em}{}
-\titleformat{\subsection}
-{\normalfont\large\bfseries}{\hrulefill\hspace{0.5em}\thesubsection\hspace{0.5em}\hrulefill}{0.5em}{}
-\titleformat{\subsubsection}
-{\normalfont\normalsize\bfseries}{\hrulefill\hspace{0.5em}\thesubsubsection\hspace{0.5em}\hrulefill}{0.5em}
-
-\section{Fundamentals of Testing}
+% \markdownInput{./content/1_into.md}
 \markdownInput{./content/1_fundamentals_of_testing.md}
-\subsection{Level 2 Heading}
-\lipsum[3-4]
-\subsubsection{Level 3 Heading}
-\lipsum[5-6]
-
-\section{Markdown showcase}
 \markdownInput{./content/example.md}
-
 \end{document}

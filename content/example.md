@@ -1,4 +1,4 @@
-# Markdown showcase
+# Markdown Showcase
 \label{first:section}
 
 Paragraphs are separated by a blank line. 
