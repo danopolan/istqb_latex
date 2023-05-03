@@ -1,4 +1,2 @@
 _temp/
-
-#credentials file
-_credentials.py
+.idea/
