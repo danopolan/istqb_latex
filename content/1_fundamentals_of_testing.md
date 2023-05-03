@@ -57,7 +57,8 @@ A person can make an error (mistake), which can lead to the introduction of a de
 
 If a defect in the code is executed, this may cause a failure, but not necessarily in all circumstances. For example, some defects require very specific inputs or preconditions to trigger a failure, which may occur rarely or never.
 
-Errors may occur for many reasons, such as: 
+Errors may occur for many reasons, such as:
+
 * Time pressure
 * Human fallibility
 * Inexperienced or insufficiently skilled project participants
