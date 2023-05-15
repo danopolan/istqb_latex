@@ -1,64 +1,62 @@
 ## 1.1 What is Testing?
 
-Software systems are an integral part of our daily life. Most people have had experience with softwarethat did not work as expected. Software that does not work correctly can lead to many problems,including loss of money, time or business reputation, and, in extreme cases, even injury or death.Software testing assesses the quality of the software and contributes to reducing the risk of softwarefailure in operation.  
+Software systems are an integral part of our daily life. Most people have had experience with softwarethat did not work as expected. Software that does not work correctly can lead to many problems,including loss of money, time or business reputation, and, in extreme cases, even injury or death. Software testing assesses software quality and helps reducing the risk of software failure in operation.  
 
-Software testing is a set of activities conducted to facilitate the discovery of defects and the evaluation ofproperties of software artifacts. These artifacts under test are known as test objects. A commonmisconception about testing is that it only consists of executing tests (i.e., running the software andchecking the results). However, software testing includes also other activities (see chapter 2).  
+Software testing is a set of activities to discover defects and evaluate the quality of software artifacts. These artifacts, when being tested, are known as test objects. A common misconception about testing is that it only consists of executing tests (i.e., running the software and checking the test results). However, software testing also includes other activities and must be aligned with the software development lifecycle (see chapter 2).  
 
-Another common misconception about testing is that testing focuses entirely on the verification of the testobject. While testing does involve checking whether the system meets specified requirements, it alsoinvolves checking whether the system meets users’ and other stakeholders’ needs in its operationalenvironment, which is called validation.  
+Another common misconception about testing is that testing focuses entirely on verifying the test object. Whilst testing involves verification, i.e., checking whether the system meets specified requirements, it also involves validation, which means checking whether the system meets users’ and other stakeholders’ needs in its operational environment.  
 
-Testing may be dynamic or static. Dynamic testing involves the execution of software, while static testingdoes not. Static testing includes reviews (see chapter 3) and static analysis. Dynamic testing usesdifferent types of test techniques to derive test cases (see chapter 4).  
+Testing may be dynamic or static. Dynamic testing involves the execution of software, while static testing does not. Static testing includes reviews (see chapter 3) and static analysis. Dynamic testing uses different types of test techniques and test approaches to derive test cases (see chapter 4).  
 
 Testing is not only a technical activity. It also needs to be properly planned, managed, estimated,monitored and controlled (see chapter 5).  
 
 Testers use tools (see chapter 6), but it is important to remember that testing is largely an intellectualactivity, requiring the testers to have specialized knowledge, use analytical skills and apply criticalthinking and systems thinking (Myers 2011, Roman 2018).  
 
-The ISO/IEC/IEEE 29119-1 standard has further information about software testing concepts
+The ISO/IEC/IEEE 29119-1 standard provides further information about software testing concepts.  
 
-### 1.1.1. Objectives of Testing
+### 1.1.1. Test Objectives
 
-The typical objectives of testing are:
+The typical test objectives are:
 
 * Evaluating work products such as requirements, user stories, designs, and code
-* Identifying failures and finding defects
-* Ensuring proper coverage of a test object
+* Causing failures and finding defects
+* Ensuring required coverage of a test object
 * Reducing the level of risk of inadequate software quality
 * Verifying whether specified requirements have been fulfilled
 * Verifying that a test object complies with contractual, legal, and regulatory requirements
 * Providing information to stakeholders to allow them to make informed decisions
 * Building confidence in the quality of the test object
-* Validating whether the test object is complete and works as the stakeholders expect
+* Validating whether the test object is complete and works as expected by the stakeholders
 
-The objectives of testing can vary, depending upon the context, which includes the work product being tested, the test level, and the SDLC being followed.
+Objectives of testing can vary, depending upon the context, which includes the work product being tested, the test level, risks, the software development lifecycle (SDLC) being followed, and factors related to the business context, e.g., corporate structure, competitive considerations, or time to market.  
 
 ### 1.1.2.Testing and Debugging
 
-Testing and debugging are separate activities. Testing can show failures that are caused by defects in the software (dynamic testing) or can directly find defects in the test object (static testing).
+Testing and debugging are separate activities. Testing can trigger failures that are caused by defects in the software (dynamic testing) or can directly find defects in the test object (static testing).
 
-If dynamic testing finds a failure, debugging is concerned with finding causes of this failure (defects), analyzing these causes, and eliminating them. The typical debugging process in this case involves:
+When dynamic testing (see chapter 4) triggers a failure, debugging is concerned with finding causes of this failure (defects), analyzing these causes, and eliminating them. The typical debugging process in this case involves:
 
 * Reproduction of a failure
-* Diagnosis (finding the cause)
+* Diagnosis (finding the root cause)
 * Fixing the cause
 
 Subsequent confirmation testing checks whether the fixes resolved the problem. Preferably, confirmation testing is done by the same person who performed the initial test. Subsequent regression testing can also be performed, to check whether the fixes are causing failures in other parts of the test object (see section 2.2.3 for more information on confirmation testing and regression testing).
 
-If static testing finds a defect, debugging is concerned with eliminating it. There is no need of reproduction or diagnosis, since static testing directly finds defects, not failures (see chapter 3).
+When static testing identifies a defect, debugging is concerned with removing it. There is no need for reproduction or diagnosis, since static testing directly finds defects, and cannot cause  failures (see chapter 3).
 
 ## 1.2. Why is Testing Necessary?
 
-The testing of components, systems and their associated documentation supports the identification of defects in software. Testing also detects gaps and other deficiencies in the specifications for the software. Hence, testing can help to reduce the risk of failures occurring during operation. When defects are detected and fixed, this contributes to improving the quality of the test object. In addition, software testing may also be required to meet contractual or legal requirements or to comply with regulatory standards.
+Testing, as a form of quality control, helps in achieving the agreed upon goals within the set scope, time, quality, and budget constraints. Testing’s contribution to success should not be restricted to the test team activities. Any stakeholder can use their testing skills to bring the project closer to success. Testing components, systems, and associated documentation helps to identify defects in software.  
 
 ### 1.2.1. Testing's Contributions to Success
 
-Testing helps in achieving the agreed upon goals within the set scope, time, quality, and budget standards. The success can be considered in terms of:
+Testing provides a cost-effective means of detecting defects. These defects can then be removed (by debugging – a non-testing activity), so testing indirectly contributes to higher quality test objects.  
 
-* Product quality (e.g., detecting defects allows to remove them in the debugging process, therefore testing contributes to increase the quality of the system under test)
-* Process quality (e.g., introducing test automation improves the efficiency of the release process; applying risk-based testing optimizes the testing effort)
-* Project goals (e.g., using static testing early in the project reduces the software maintenance costs and improves the developers' effectiveness by reducing time spent for fixing defects)
-* People skills (e.g., performing code reviews increases code understanding and allows less experienced developers to improve their programming and designing skills)
+Testing provides a means of directly evaluating the quality of a test object at various stages in the SDLC. These measures are used as part of a larger project management activity, contributing to decisions to move to the next stage of the SDLC, such as the release decision.  
 
-Testing's contribution to success should not be restricted to the test team activities only. Any stakeholder can use their testing skills to bring the project closer to success.
+Testing provides users with indirect representation on the development project. Testers ensure that their understanding of users’ needs are considered throughout the development lifecycle. The alternative is to involve a representative set of users as part of the development project, which is not usually possible due to the high costs and lack of availability of suitable users.  
 
+Testing may also be required to meet contractual or legal requirements, or to comply with regulatory standards.  
 
 ### 1.2.2. Testing and Quality Assurance (QA)
 
