@@ -1,2 +1,11 @@
 _temp/
 .idea/
+*.aux
+
+_markdown_main/
+
+*.lua
+
+*.out
+
+*.gz
