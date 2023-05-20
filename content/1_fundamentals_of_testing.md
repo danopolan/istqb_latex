@@ -7,7 +7,12 @@ Software systems are an integral part of life, from business applications (e.g.,
 A common misperception of testing is that it only consists of running tests, i.e., executing the software and checking the results. As described in section 1.4, software testing is a process which includes many different activities; test execution (including checking of results) is only one of these activities. The test process also includes activities such as test planning, analyzing, designing, and implementing tests, reporting test progress and results, and evaluating the quality of a test object.
 
 Some testing does involve the execution of the component or system being tested; such testing is called dynamic testing. Other testing does not involve the execution of the component or system being tested; such testing is called static testing. So, testing also includes reviewing work products such as requirements, user stories, and source code.
-Another common misperception of testing is that it focuses entirely on verification of requirements, user stories, or other specifications. While testing does involve checking whether the system meets specified requirements, it also involves validation, which is checking whether the system will meet user and other stakeholder needs in its operational environment(s).
+Another common misperception of testing is that it focuses entirely on verification of requirements, user stories, or other specifications. While testing does involve checking whether the system meets specified requirements, it also involves validation, which is checking whether the system will meet user and other stakeholder needs in its operational environment(s).  
+
+This section does test if section links works.  
+Link to [testing principles](#-Seven-Testing-Principles) should redirect you to the section Seven Testing Principles in this MD document.  
+Link to [another file section](./1_intro.md#section-no1) will redirect you to the Section 1 in other MD document.  
+Link to [another file](./1_intro.md) will redirect you to the the head of another MD document.  
 
 Test activities are organized and carried out differently in different lifecycles (see section 2.1). 
 
