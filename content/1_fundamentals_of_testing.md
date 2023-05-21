@@ -1,5 +1,25 @@
 # Fundamentals of Testing
 
+Can I write \LaTeX{} code here?  
+And what about some formulas?  
+
+
+If you enable the `hybrid` option, You can mix \LaTeX{} code in Markdown! Inline math equations go in like so: $\omega = d\phi / dt$. Displaymath too:
+
+\begin{equation}
+I = \int \rho R^{2} dV
+\end{equation}
+
+Markdown native section links (DOES NOT WORK)  
+Link to [testing principles](#Seven-Testing-Principles) should redirect you to the section Seven Testing Principles in this MD document.  
+Link to [another file section](./1_intro.md#section-no1) will redirect you to the Section 1 in other MD document.  
+Link to [another file](./1_intro.md) will redirect you to the the head of another MD document.  
+
+LaTeX hybrid section links (WORKS FINE)
+Link to \textit{\nameref{sec:seventestingprinciples}} should redirect you to the section Seven Testing Principles in this MD document.  
+Link to \textit{\nameref{sec:sectionno1}} will redirect you to the Section 1 in other MD document.  
+Link to \textit{\nameref{sec:fundamentalsoftesting}} will redirect you to the the head of another MD document.  
+
 ## What is Testing?
 
 Software systems are an integral part of life, from business applications (e.g., banking) to consumer products (e.g., cars). Most people have had an experience with software that did not work as expected. Software that does not work correctly can lead to many problems, including loss of money, time, or business reputation, and even injury or death. Software testing is a way to assess the quality of the software and to reduce the risk of software failure in operation.
@@ -7,7 +27,9 @@ Software systems are an integral part of life, from business applications (e.g.,
 A common misperception of testing is that it only consists of running tests, i.e., executing the software and checking the results. As described in section 1.4, software testing is a process which includes many different activities; test execution (including checking of results) is only one of these activities. The test process also includes activities such as test planning, analyzing, designing, and implementing tests, reporting test progress and results, and evaluating the quality of a test object.
 
 Some testing does involve the execution of the component or system being tested; such testing is called dynamic testing. Other testing does not involve the execution of the component or system being tested; such testing is called static testing. So, testing also includes reviewing work products such as requirements, user stories, and source code.
-Another common misperception of testing is that it focuses entirely on verification of requirements, user stories, or other specifications. While testing does involve checking whether the system meets specified requirements, it also involves validation, which is checking whether the system will meet user and other stakeholder needs in its operational environment(s).
+Another common misperception of testing is that it focuses entirely on verification of requirements, user stories, or other specifications. While testing does involve checking whether the system meets specified requirements, it also involves validation, which is checking whether the system will meet user and other stakeholder needs in its operational environment(s).  
+
+
 
 Test activities are organized and carried out differently in different lifecycles (see section 2.1). 
 
@@ -81,6 +103,7 @@ In this example, the customer complaints are effects. The incorrect interest pay
 cause analysis is discussed in ISTQB-CTEL-TM and ISTQB-CTEL-ITP. 
 
 ## Seven Testing Principles
+\label{sec:seventestingprinciples}
 A number of testing principles have been suggested over the past 50 years and offer general guidelines common for all testing.  
   
 #. **Testing shows the presence of defects, not their absence**  
