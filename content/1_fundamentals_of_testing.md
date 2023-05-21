@@ -1,5 +1,16 @@
 # Fundamentals of Testing
 
+Can I write \LaTeX{} code here?  
+And what about some formulas?  
+
+
+If you enable the `hybrid` option, You can mix \LaTeX{} code in Markdown! Inline math equations go in like so: $\omega = d\phi / dt$. Displaymath too:
+
+\begin{equation}
+I = \int \rho R^{2} dV
+\end{equation}
+
+
 ## What is Testing?
 
 Software systems are an integral part of life, from business applications (e.g., banking) to consumer products (e.g., cars). Most people have had an experience with software that did not work as expected. Software that does not work correctly can lead to many problems, including loss of money, time, or business reputation, and even injury or death. Software testing is a way to assess the quality of the software and to reduce the risk of software failure in operation.
