@@ -15,7 +15,7 @@ jobs:
       - name: Generate BibTex
         uses: dante-ev/latex-action@latest
         with:
-            root_file: main.aux
+            root_file: main.tex
             compiler: bibtex
             args: 
       - name: Compile LaTeX document v2
