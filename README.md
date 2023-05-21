@@ -4,15 +4,15 @@ Overleaf + GitHub + Markdown
 ## TODOs
 !(2023-05-15) 
   * Call for LaTeX expert
-  * Set up backlog for upcoming weeks
-  * Get more engineers on board
+  * ~~Set up backlog for upcoming weeks~~
+  * ~~Get more engineers on board~~
 
 !(2023-05-22) 
-  * Integrate GitHub with Mantis
-  * Test section references in Markdown
+  * Integrate GitHub with Mantis (waiting for Galit and infrastructure team)
+  * Test section references in Markdown (in progress)
   * Test source references in Markdown
-  * Create build pipeline to create PDF
-      * Including using Markdown content
+  * ~~Create build pipeline to create PDF~~
+      * ~~Including using Markdown content~~
   * Define requirements for LaTeX template
       * Landing page
       * Table of content
