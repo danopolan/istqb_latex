@@ -9,21 +9,21 @@
 \usepackage{lastpage}
 \usepackage{enumitem}
 
-% You can re-define how links are rendered: uncomment the following to get hyperlinked text instead of footnotes
-\usepackage{hyperref}
-%%begin novalidate
-\markdownSetup{rendererPrototypes={
-  link = {\href{#2}{#1}},
-  image = {\begin{figure}[hbt!]
-    \centering
-    \includegraphics{#3}%
-    \ifx\empty#4\empty\else
-    \caption{#4}%
-    \fi
-    \label{fig:#1}%
-    \end{figure}}
-}}
-%%end novalidate
+% % You can re-define how links are rendered: uncomment the following to get hyperlinked text instead of footnotes
+% \usepackage{hyperref}
+% %%begin novalidate
+% \markdownSetup{rendererPrototypes={
+%   link = {\href{#2}{#1}},
+%   image = {\begin{figure}[hbt!]
+%     \centering
+%     \includegraphics{#3}%
+%     \ifx\empty#4\empty\else
+%     \caption{#4}%
+%     \fi
+%     \label{fig:#1}%
+%     \end{figure}}
+% }}
+% %%end novalidate
 
 % Define the header and footer
 \pagestyle{fancy}
