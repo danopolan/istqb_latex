@@ -6,18 +6,24 @@ jobs:
     steps:
       - name: Set up Git repository
         uses: actions/checkout@v3
-      - name: Compile LaTeX document
+      - name: Compile LaTeX document to generate references and main.aux
         uses: dante-ev/latex-action@latest
         with:
           root_file: main.tex
           compiler: pdflatex
           args: -shell-escape
-      - name: Generate BibTex
+      - name: Generate BibTex document for references 
         uses: dante-ev/latex-action@latest
         with:
             root_file: main.aux
             compiler: bibtex
             args: 
+      - name: Compile LaTeX document
+        uses: dante-ev/latex-action@latest
+        with:
+            root_file: main.tex
+            compiler: pdflatex
+            args: -shell-escape
       - name: Compile LaTeX document v2
         uses: dante-ev/latex-action@latest
         with:
