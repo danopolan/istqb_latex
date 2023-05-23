@@ -10,7 +10,7 @@
 
 This syllabus forms the basis for the International Software Testing Qualification Board forAgileTestLeadership at Scaleat theAdvancedLevel.The ISTQB®providesthis syllabusas follows:
 
-  1. To Member Boards, to translate into their local language and to accredit training providers.Member Boards may adapt the syllabus to their particular language needs and modify the references to adapt to their local publications.
+  1. To Member Boards, to translate into their local language and to accredit training providers. Member Boards may adapt the syllabus to their particular language needs and modify the references and other stuff in the syllabus to adapt to their local publications.
   2. To certification bodies, to derive examination questions in their local language adapted to thelearning objectives for this syllabus.
   3. To training providers, to produce courseware and determine appropriate teaching methods.
   4. To certification candidates, to prepare for the certification exam (either as part of a trainingcourse or independently).
