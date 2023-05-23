@@ -29,6 +29,7 @@ Overleaf + GitHub + Markdown
       * Can we compare PDFs?
 
 !(2023-05-29) 
+  * Get somebody to migrate Word to Markdown (10eur/h ~10 hours = ~100 eur)
   * Presentation & Demo for Cross-functional meeting ready
   * Costs for tools and people
   * Test process of ATLaS syllabus development
@@ -40,6 +41,10 @@ Overleaf + GitHub + Markdown
   * Start LaTeX template development
   * Plan design changes to the ISTQB syllabi
 
+!(2023-06-07)
+  * Beta in Markdown with cleanup of formatting
+  * Final confirmation on timeline with LaTeX template
+ 
 !(2023-07-17) 
   * LaTeX template ready and debugged
   * Content ready in MD files
