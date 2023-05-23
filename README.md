@@ -3,17 +3,17 @@ Overleaf + GitHub + Markdown
 
 ## TODOs
 !(2023-05-15) 
-  * Call for LaTeX expert
-  * ~~Set up backlog for upcoming weeks~~
-  * ~~Get more engineers on board~~
+  * ~~Call for LaTeX expert~~ (Vit Novotny - author of Markdown signed up for this)
+  * ~~Set up backlog for upcoming weeks~~ (See below)
+  * ~~Get more engineers on board~~ (Filip onboarded)
 
 !(2023-05-22) 
   * Integrate GitHub with Mantis (waiting for Galit and infrastructure team)
-  * Test section references in Markdown (in progress)
-  * Test source references in Markdown
+  * ~~Test section references in Markdown~~ (Works but there are some specifics)
+  * ~~Test source references in Markdown~~ (Works fine)
   * ~~Create build pipeline to create PDF~~
       * ~~Including using Markdown content~~
-  * Define requirements for LaTeX template
+  * ~~Define~~ Requirements for LaTeX template
       * Landing page
       * Table of content
       * Page layout with headers and footers
@@ -37,9 +37,11 @@ Overleaf + GitHub + Markdown
   * Final touches to ease process for syllabus authors
   * Prepare Git and GitHub training
   * Perform training for 5 authors in ATLaS
+  * Start LaTeX template development
+  * Plan design changes to the ISTQB syllabi
 
 !(2023-07-17) 
-  * LaTeX template ready
+  * LaTeX template ready and debugged
   * Content ready in MD files
   * Testing and debugging
 
