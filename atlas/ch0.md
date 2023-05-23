@@ -16,11 +16,11 @@ This syllabus forms the basis for the International Software Testing Qualificati
   4. To certification candidates, to prepare for the certification exam (either as part of a trainingcourse or independently).
   5. To the international software and systems engineering community, to advance the professionof software and systems testing, and as a basis for books and articles.
 
-## 0.2 TheAgileTest Leadership at Scale Certification
+## 0.2 The Agile Test Leadership at Scale Certification
 
-The ISTQB® Agile Test Leadership at Scale (CTAL-ATLaS) certification focuses on how to organize and improve quality and testing across multiple teams in an agile organization. It also covers how to approach quality and testing at a strategic level in order to achieve higher business agility in an organization.
+The ISTQB® Agile Test Leadership at Scale (CTAL-ATLaS 2023) certification focuses on how to organize and improve quality and testing across multiple teams in an agile organization. It also covers how to approach quality and testing at a strategic level in order to achieve higher business agility in an organization.
 
-TheAdvanced LevelAgileTest Leadership at Scale (ATLaS) qualification is aimed at people whowork in an organization that is pursuing agility at scale or business agility and already have a basic understanding of agile and agile testing.
+TheAdvanced LevelAgileTest Leadership at Scale (ATLaS 2023) qualification is aimed at people whowork in an organization that is pursuing agility at scale or business agility and already have a basic understanding of agile and agile testing.
 
 This includes people in roles such as test manager, head of testing, quality coach, test analyst,technical test analyst, test automation engineer, quality engineer, quality assurance, member of anagile team, member of a leader group of multiple agile teams, ITdirector, project manager, releasetrain engineer, scrum master, product owner, and management consultant.
 
