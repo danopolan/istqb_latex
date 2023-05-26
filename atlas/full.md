@@ -123,10 +123,10 @@ Examples of measurable key results for the business outcome are:
 
 * A continuous reduction in lead time for Minimum Viable Products (MVP) or Minimum Marketable Features (MMF)
 * time for Minimum Viable Products (MVP) or Minimum Marketable Features (MMF)
-* x % improvement in reaching business benefits 
-* x % reduction in production incidents or customer complaints (a customer is whoever consumes your product or service)
-* x% increase in quality improvement experiments inspired by the organizational test strategy
-* x% increase in improvement feedback
+* x\% improvement in reaching business benefits 
+* x\% reduction in production incidents or customer complaints (a customer is whoever consumes your product or service)
+* x\% increase in quality improvement experiments inspired by the organizational test strategy
+* x\% increase in improvement feedback
 
 ### 0.10.3 BO3 Continuously improve test processes addressing challenges in the context of scaled agile product development
 
@@ -139,10 +139,12 @@ Agile test leader, Agile test team leader, Built-in quality, Quality assistance,
 **Learning Objectives for Chapter 1:**  
 
 **1.1 What Is Quality Assistance?**  
+
 ATLaS-1.1.1	(K2) Understand quality assistance as an approach to quality and test management
 
 **1.2 Skills for Quality Assistance**  
-ATLaS-1.2.1	(K2) Give examples of the change leadership, quality coaching, facilitation, and training skills required for quality assistance
+
+ATLaS-1.2.1	(K2) Give examples of the change leadership, quality coaching, facilitation, and training skills required for quality assistance  
 
 ATLaS-HO-1.2.1	(H2) Given a quality-related problem, provide quality assistance using one or more of the four important skills (change leadership, quality coaching, facilitation, and training)
 
@@ -187,11 +189,13 @@ Effectiveness, Efficiency
 **Learning Objectives for Chapter 2:**  
 
 **2.1 Facilitate Value Stream Mapping**  
-ATLaS-2.1.1	(K2) Understand value stream as a concept
+
+ATLaS-2.1.1	(K2) Understand value stream as a concept  
 
 ATLaS-2.1.2	(K3) Apply value stream mapping as an agile test leader to understand and visualize working flows
 
 **2.2 Analyze a Value Stream from a Quality and Testing Perspective**  
+
 ATLaS-2.2.1	(K4) Analyze a value stream to identify waste and other quality and testing issues using basic metrics
 
 ## 2.1 Facilitate Value Stream Mapping
@@ -250,13 +254,16 @@ Value stream mapping, analysis, and improvement is an iterative process. Value s
 Root cause analysis, Agile test team lead, Causal loop diagram
 
 **Learning Objectives for Chapter 3:**  
+
 **3.1 Structured Problem-Solving Approach for Testing and Quality Activities**  
 
 ATLaS-3.1.1	(K3) Apply a Plan-Do-Check-Act cycle to address a quality problem  
+
 ATLaS-3.1.2	(K2) Understand how to embed Plan-Do-Check-Act in the organization
 
 **3.2 Systems Thinking and Analysis of Root Causes**  
-ATLaS-3.2.1	(K2) Understand how systems thinking and root cause analysis support a quality assistance approach
+
+ATLaS-3.2.1	(K2) Understand how systems thinking and root cause analysis support a quality assistance approach  
 
 ATLaS-3.2.2	(K3) Apply causal loop diagram to identify root causes
 
@@ -335,15 +342,15 @@ DevOps infinite loop, Community of practice (CoP), Chaos engineering, Tailoring-
 
 **4.1 Establish an Organizational Test Strategy**  
 
-ATLaS-4.1.1	(K2) Explain practices supporting DevOps and why to include them in the organizational test strategy
+ATLaS-4.1.1 (K2) Explain practices supporting DevOps and why to include them in the organizational test strategy  
 
-ATLaS-4.1.2	(K2) Exemplify how an organizational test strategy is created and implemented in a value-driven organization
+ATLaS-4.1.2 (K2) Exemplify how an organizational test strategy is created and implemented in a value-driven organization  
 
-ATLaS-4.1.3 	(K3) Implement assessment techniques to validate test practice alignment with business and technical needs.
+ATLaS-4.1.3 (K3) Implement assessment techniques to validate test practice alignment with business and technical needs.
 
 **4.2 Fit Agile Test Leadership in a Value-Driven Organization**  
 
-ATLaS-4.2.1 	(K4) Analyze how agile test leadership fits in an organization using an agile scaling framework.
+ATLaS-4.2.1 (K4) Analyze how agile test leadership fits in an organization using an agile scaling framework.
 
 ## 4.1 Establish an Organizational Test Strategy
 
@@ -454,13 +461,14 @@ DevOps infinite loop
 **Learning Objectives for Chapter 5:**  
 
 **5.1 Test Processes**  
-ATLaS-5.1.1	(K2) Exemplify challenges specific to testing in the context of scaled agile product development
 
-ATLaS-5.1.2	(K2) Exemplify scaled agile practices that help coordinate testing efforts across agile and non-agile teams
+ATLaS-5.1.1 (K2) Exemplify challenges specific to testing in the context of scaled agile product development  
 
-ATLaS-5.1.3	(K2) Define a set of test and flow related metrics to establish transparency for stakeholders
+ATLaS-5.1.2 (K2) Exemplify scaled agile practices that help coordinate testing efforts across agile and non-agile teams  
 
-ATLaS-5.1.4	(K4) Structure challenging test activities and test processes to fit business agility using a quality assistance approach 
+ATLaS-5.1.3 (K2) Define a set of test and flow related metrics to establish transparency for stakeholders  
+
+ATLaS-5.1.4 (K4) Structure challenging test activities and test processes to fit business agility using a quality assistance approach  
 
 ATLaS-5.1.5	(K4) Analyze which test activities should be performed by stream-aligned teams and which should be performed by specialized service teams
 
