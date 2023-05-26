@@ -153,13 +153,13 @@ The certification covers how quality assistance as an approach fits with known s
 
 Quality assistance is the approach test management should embrace to help in adopting and fostering a transformation to business agility. A quality assistance approach to test management is significantly different from a traditional mindset and traditional approach (Gartner, 2018). Some important differences are as follows:
 
-#. Optimizes for flow and value delivery
-#. Focuses on prevention, automation, and observability
-#. Encourages built-in quality practices continuously
-#. Supports self-empowered teams by enabling others to take responsibility for quality- and testing-related activities
-#. Embeds testing throughout the organization instead of sustaining testing silos
-#. Requires agile test leaders and agile test team leaders that serve, rather than test managers that control
-#. Has agile test leaders and agile test team leaders helping everyone in the organization collaborate through community of practice events
+*  Optimizes for flow and value delivery
+*  Focuses on prevention, automation, and observability
+*  Encourages built-in quality practices continuously
+*  Supports self-empowered teams by enabling others to take responsibility for quality- and testing-related activities
+*  Embeds testing throughout the organization instead of sustaining testing silos
+*  Requires agile test leaders and agile test team leaders that serve, rather than test managers that control
+*  Has agile test leaders and agile test team leaders helping everyone in the organization collaborate through community of practice events
 
 It is important to understand that test management as a discipline is still needed as part of quality assistance in value-driven organizations.
 
@@ -219,26 +219,26 @@ Optimizing a value stream focuses on the flow of value and on quality. Therefore
 ## 2.2.1 Metrics for Analyzing a Value Stream
 To help analyze value streams, a few basic flow and quality metrics are introduced, such as:
 
-#. Lead time (LT)
-#. Wait time (sometimes called delay time)
-#. Processing time (PT)
-#. Flow efficiency (sometimes called process cycle efficiency or activity ratio)
-#. Percent complete and accurate (%C&A)
-#. Phase Containment Efficiency (PCE)
+*  Lead time (LT)
+*  Wait time (sometimes called delay time)
+*  Processing time (PT)
+*  Flow efficiency (sometimes called process cycle efficiency or activity ratio)
+*  Percent complete and accurate (%C&A)
+*  Phase Containment Efficiency (PCE)
 
 These metrics can be visualized in a value stream map. As data collection can be a challenge, it is important to observe the work being done and discuss with the people doing it what quality metrics can be collected.
 
 ## 2.2.2 Identify Non-Value-Adding Activities (Waste)
 Agile test leaders and agile test team leaders should be able to identify non-value-adding activities, which in lean are categorized as eight different types of waste:
 
-#. Transport
-#. Inventory
-#. Motion
-#. Waiting
-#. Overproduction
-#. Over-processing
-#. Correction
-#. Non-utilized talent
+*  Transport
+*  Inventory
+*  Motion
+*  Waiting
+*  Overproduction
+*  Over-processing
+*  Correction
+*  Non-utilized talent
 
 Metrics can give a good indication of poor effectiveness and inefficiency and therefore where to look for waste.
 
@@ -302,10 +302,10 @@ of the quality assurance (QA) and testing activities will span multiple teams an
 
 In a value stream, bottlenecks are a root cause for waste. Some typical bottlenecks in development value streams are:
 
-#. Environment creation
-#. Code deployment
-#. System testing
-#. Software architecture
+*  Environment creation
+*  Code deployment
+*  System testing
+*  Software architecture
 
 It requires a flexible set of root cause analysis techniques to discover many potentially relevant root causes using systems thinking. If not used, there is a risk of concluding too quickly that there is just one single root cause. A basic root cause analysis technique in lean is “Five Whys.” Causal loop diagram (CLD) is a method that can help if the feedback structure of human interaction or of the technical system needs to be identified.
 
@@ -357,12 +357,12 @@ Additional aspects that help to build quality into the DevOps process include:
 
 Operating in DevOps
 
-#. Use of feature toggles
-#. Automated control and management of test and production environments used during release stage  
-#. Testing in production
-#. Canary releases
+* Use of feature toggles
+* Automated control and management of test and production environments used during release stage  
+* Testing in production
+* Canary releases
 
-Monitoring in DevOps 
+Monitoring in DevOps  
 
 Exploring in DevOps
 
@@ -372,8 +372,8 @@ Coding and integrating in DevOps
 
 Releasing in DevOps
 
-#. Self-service environment management
-#. Blue/green deployment strategy and chaos engineering
+* Self-service environment management
+* Blue/green deployment strategy and chaos engineering
 
 For organizations where DevOps is not a mature capability the organizational test strategy should outline improvement goals and how to contribute to higher DevOps maturity.
 
@@ -418,14 +418,14 @@ In a value-driven organization, budget allocation often includes a broad set of 
 
 On product level the scale is smaller than the entire organization but larger than a single team. Here the agile test leader can:
 
-#. be a practice leader within the testing community of practice (CoP)
-#. help teams to identify waste using value stream mapping (VSM)
-#. guide teams to capture product quality in their definitions of “ready” and “done”
-#. teach teams systems thinking to reduce the risk of local optimization
-#. facilitate multi-team retrospectives and process improvement
-#. help teams with continuous improvement of their quality capabilities
-#. provide System QA and testing expertise to agile teams by leading a specialized service group
-#. help to find a good balance between decentralized and centralized testing
+* be a practice leader within the testing community of practice (CoP)
+*  help teams to identify waste using value stream mapping (VSM)
+*  guide teams to capture product quality in their definitions of “ready” and “done”
+*  teach teams systems thinking to reduce the risk of local optimization
+*  facilitate multi-team retrospectives and process improvement
+*  help teams with continuous improvement of their quality capabilities
+*  provide System QA and testing expertise to agile teams by leading a specialized service group
+*  help to find a good balance between decentralized and centralized testing
 
 On operational level, the agile test leader can coach teams of agile teams in test related subjects (testing techniques and tools, metrics, effort estimation, risk-based testing, pairing, peer reviews, test-first practices, design for testability).
 
