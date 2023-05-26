@@ -122,7 +122,7 @@ In a value-driven organization, it is still crucial to have a strategy for build
 Examples of measurable key results for the business outcome are:
 
 * A continuous reduction in lead time for Minimum Viable Products (MVP) or Minimum Marketable Features (MMF)
-* ` `time for Minimum Viable Products (MVP) or Minimum Marketable Features (MMF)
+* time for Minimum Viable Products (MVP) or Minimum Marketable Features (MMF)
 * x % improvement in reaching business benefits 
 * x % reduction in production incidents or customer complaints (a customer is whoever consumes your product or service)
 * x% increase in quality improvement experiments inspired by the organizational test strategy
@@ -332,6 +332,7 @@ Organizational test strategy, Hypothesis-driven development, Shift-right, Testin
 DevOps infinite loop, Community of practice (CoP), Chaos engineering, Tailoring-up, Tailoring-down
 
 **Learning Objectives for Chapter 4:**  
+
 **4.1 Establish an Organizational Test Strategy**  
 
 ATLaS-4.1.1	(K2) Explain practices supporting DevOps and why to include them in the organizational test strategy
@@ -451,6 +452,7 @@ Organizational test strategy, Hypothesis testing
 DevOps infinite loop 
 
 **Learning Objectives for Chapter 5:**  
+
 **5.1 Test Processes**  
 ATLaS-5.1.1	(K2) Exemplify challenges specific to testing in the context of scaled agile product development
 
