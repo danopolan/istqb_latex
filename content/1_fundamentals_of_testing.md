@@ -1,8 +1,7 @@
 # Fundamentals of Testing
 
-Can I write \LaTeX{} code here?  
-And what about some formulas?  
-
+Can I write \LaTeX{} code here? Sure you can.  
+And what about some formulas? That is fine as well.  
 
 If you enable the `hybrid` option, You can mix \LaTeX{} code in Markdown! Inline math equations go in like so: $\omega = d\phi / dt$. Displaymath too:
 
