@@ -17,22 +17,25 @@ Markdown + LaTeX
 * ~~Create build pipeline to create PDF~~
     * ~~Including using Markdown content~~
 * ~~Define Requirements for LaTeX template~~
-    
+
 2023-05-29
 
+* ~~Get somebody to migrate ATLaS Word to Markdown (10eur/h ~10 hours = ~100 eur)~~
+* ~~Presentation & Demo for Cross-functional meeting ready~~
+* ~~Costs for tools and people~~
+* ~~Test process of ATLaS syllabus development~~
 * ~~Costs for tools and people~~
 * ~~Test process of ATLaS syllabus development~~
 
 2023-05-31
 
 * ~~Final touches to ease process for syllabus authors~~
-* ~~Prepare Git and GitHub training~~
-* ~~Perform training for 5 authors in ATLaS~~
-* ~~Start LaTeX template development~~
+* ~~Perform Git and GitHub intro for ATLaS authors~~
 * ~~ATLaS Content ready in MD files~~
 
 2023-06-05
 
+* ~~Start LaTeX template development~~
 * Define issues for Vit Novotny to work on
 * ~~Cleanup of GitHub repo~~
 * ~~Add ATLaS content into the GitHub repo~~
