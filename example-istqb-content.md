@@ -9,10 +9,7 @@ If you enable the `hybrid` option, You can mix \LaTeX{} code in Markdown! Inline
 I = \int \rho R^{2} dV
 \end{equation}
 
-Markdown native section links (DOES NOT WORK)  
-Link to [testing principles](#Seven-Testing-Principles) should redirect you to the section Seven Testing Principles in this MD document.  
-Link to [another file section](./example-istqb-intro#section-no1) will redirect you to the Section 1 in other MD document.  
-Link to [another file](./example-istqb-intro) will redirect you to the the head of another MD document.  
+
 
 LaTeX hybrid section links (WORKS FINE)
 Link to \textit{\nameref{sec:seventestingprinciples}} should redirect you to the section Seven Testing Principles in this MD document.  
