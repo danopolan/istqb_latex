@@ -1,5 +1,5 @@
 # istqb_latex
-Markdown + LaTeX
+Markdown + LaTeX in Git for ISTQB syllabi
 
 ## TODOs
 
@@ -20,7 +20,7 @@ Markdown + LaTeX
 
 2023-05-29
 
-* ~~Get somebody to migrate ATLaS Word to Markdown (10eur/h ~10 hours = ~100 eur)~~
+* ~~Get somebody to migrate ATLaS Word to Markdown (10eur/h approx. 10 hours)~~
 * ~~Presentation & Demo for Cross-functional meeting ready~~
 * ~~Costs for tools and people~~
 * ~~Test process of ATLaS syllabus development~~
@@ -42,7 +42,7 @@ Markdown + LaTeX
 
 2023-06-12
 
-* Get details on contract for Vit Novotny (30e/h, ~50h for ATLaS, who will paying the invoice)
+* Get details on contract for Vit Novotny (30e/h, approx. 50h for ATLaS, who will paying the invoice)
 * Presentation & Demo for Cross-functional meeting ready
 
 2023-06-30
