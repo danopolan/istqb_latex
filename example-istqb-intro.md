@@ -1,5 +1,5 @@
 # Fundamentals of Testing
-\nameref{sec:fundamentalsoftesting}
+`\nameref{sec:fundamentalsoftesting}`{=tex}
 **Keywords**  
 coverage, debugging, defect, error, failure, quality, quality assurance, root cause, test analysis, test basis, test case, test completion, test condition, test control, test data, test design, test execution, test implementation, test monitoring, test object, test objective, test oracle, test planning, test procedure, test process, test suite, testing, testware, traceability, validation, verification
 
@@ -30,7 +30,7 @@ coverage, debugging, defect, error, failure, quality, quality assurance, root ca
 
 
 # Section no1
-\label{sec:sectionno1}
+`\label{sec:sectionno1}`{=tex}
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique id eros sed bibendum. Vivamus vestibulum non velit viverra sodales. Praesent bibendum libero vitae est auctor vestibulum. Sed in ligula malesuada, venenatis dui eget, egestas diam. Donec sit amet nunc eget justo volutpat molestie quis a mauris. Aliquam efficitur sem interdum lacus tristique, ut fringilla orci lacinia. Pellentesque eros ipsum, mattis ut orci non, venenatis pellentesque dolor. Integer eu leo dictum, consectetur arcu sed, eleifend lorem. Sed id nisi vitae nunc interdum lobortis.
 
 Quisque mollis ante ac tellus commodo, ut sagittis risus rutrum. Aenean pharetra diam purus, non venenatis magna convallis ut. Nam finibus sapien ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus pulvinar nisi a dolor venenatis tempor. Donec egestas fringilla sapien id placerat. Aliquam est turpis, luctus porta convallis non, ullamcorper at lectus. Nam nisi nisl, tincidunt quis tristique eu, semper ac purus. Nam in lorem a sem condimentum aliquet. Maecenas convallis massa ac elementum varius. Sed pharetra nisi quis commodo rutrum. Nullam ultrices purus leo, nec tincidunt velit accumsan nec. Pellentesque vitae aliquet quam. Ut pulvinar augue bibendum bibendum rutrum.

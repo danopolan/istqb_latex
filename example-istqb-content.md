@@ -3,11 +3,13 @@
 Can I write \LaTeX{} code here? Sure you can.  
 And what about some formulas? That is fine as well.  
 
-If you enable the `hybrid` option, You can mix \LaTeX{} code in Markdown! Inline math equations go in like so: $\omega = d\phi / dt$. Displaymath too:
+If you enable the `fencedCode`, `rawAttribute`, and `texMathDollars` options, You can mix `\LaTeX`{=tex} code in Markdown! Inline math equations go in like so: $\omega = d\phi / dt$. Displaymath too:
 
+``` {=tex}
 \begin{equation}
 I = \int \rho R^{2} dV
 \end{equation}
+```
 
 Markdown native section links (DOES NOT WORK)  
 Link to [testing principles](#Seven-Testing-Principles) should redirect you to the section Seven Testing Principles in this MD document.  
@@ -15,9 +17,9 @@ Link to [another file section](./example-istqb-intro#section-no1) will redirect 
 Link to [another file](./example-istqb-intro) will redirect you to the the head of another MD document.  
 
 LaTeX hybrid section links (WORKS FINE)
-Link to \textit{\nameref{sec:seventestingprinciples}} should redirect you to the section Seven Testing Principles in this MD document.  
-Link to \textit{\nameref{sec:sectionno1}} will redirect you to the Section 1 in other MD document.  
-Link to \textit{\nameref{sec:fundamentalsoftesting}} will redirect you to the the head of another MD document.  
+Link to `\textit{\nameref{sec:seventestingprinciples}}`{=tex} should redirect you to the section Seven Testing Principles in this MD document.  
+Link to `\textit{\nameref{sec:sectionno1}}`{=tex} will redirect you to the Section 1 in other MD document.  
+Link to `\textit{\nameref{sec:fundamentalsoftesting}}`{=tex} will redirect you to the the head of another MD document.  
 
 ## What is Testing?
 
@@ -102,7 +104,7 @@ In this example, the customer complaints are effects. The incorrect interest pay
 cause analysis is discussed in ISTQB-CTEL-TM and ISTQB-CTEL-ITP. 
 
 ## Seven Testing Principles
-\label{sec:seventestingprinciples}
+`\label{sec:seventestingprinciples}`{=tex}
 A number of testing principles have been suggested over the past 50 years and offer general guidelines common for all testing.  
   
 #. **Testing shows the presence of defects, not their absence**  
