@@ -1,24 +1,5 @@
 # Fundamentals of Testing
 
-Can I write \LaTeX{} code here? Sure you can.  
-And what about some formulas? That is fine as well.  
-
-If you enable the `hybrid` option, You can mix \LaTeX{} code in Markdown! Inline math equations go in like so: $\omega = d\phi / dt$. Displaymath too:
-
-\begin{equation}
-I = \int \rho R^{2} dV
-\end{equation}
-
-Markdown native section links (DOES NOT WORK)  
-Link to [testing principles](#Seven-Testing-Principles) should redirect you to the section Seven Testing Principles in this MD document.  
-Link to [another file section](./example-istqb-intro#section-no1) will redirect you to the Section 1 in other MD document.  
-Link to [another file](./example-istqb-intro) will redirect you to the the head of another MD document.  
-
-LaTeX hybrid section links (WORKS FINE)
-Link to \textit{\nameref{sec:seventestingprinciples}} should redirect you to the section Seven Testing Principles in this MD document.  
-Link to \textit{\nameref{sec:sectionno1}} will redirect you to the Section 1 in other MD document.  
-Link to \textit{\nameref{sec:fundamentalsoftesting}} will redirect you to the the head of another MD document.  
-
 ## What is Testing?
 
 Software systems are an integral part of life[@beizer], from business applications (e.g., banking) to consumer products (e.g., cars). Most people have had an experience with software that did not work as expected. Software that does not work correctly can lead to many problems, including loss of money, time, or business reputation, and even injury or death. Software testing is a way to assess the quality of the software and to reduce the risk of software failure in operation.
@@ -28,10 +9,7 @@ A common misperception of testing is that it only consists of running tests, i.e
 Some testing does involve the execution of the component or system being tested; such testing is called dynamic testing. Other testing does not involve the execution of the component or system being tested; such testing is called static testing. So, testing also includes reviewing work products such as requirements, user stories, and source code.
 Another common misperception of testing is that it focuses entirely on verification of requirements, user stories, or other specifications. While testing does involve checking whether the system meets specified requirements, it also involves validation, which is checking whether the system will meet user and other stakeholder needs in its operational environment(s).  
 
-
-
 Test activities are organized and carried out differently in different lifecycles (see section 2.1). 
-
 
 ### Typical Objectives of Testing
 For any given project, the objectives of testing may include:  
@@ -43,7 +21,6 @@ For any given project, the objectives of testing may include:
 * To find defects and failures thus reduce the level of risk of inadequate software quality 
 * To provide sufficient information to stakeholders to allow them to make informed decisions, especially regarding the level of quality of the test object 
 * To comply with contractual, legal, or regulatory requirements or standards, and/or to verify the test object’s compliance with such requirements or standards
-
 
 The objectives of testing can vary, depending upon the context of the component or system being tested, the test level, and the software development lifecycle model. These differences may include, for example:
 
