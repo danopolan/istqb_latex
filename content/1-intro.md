@@ -1,12 +1,12 @@
 # 1. Fundamentals of Testing
 
 **Keywords**
-coverage, coverage item, debugging, defect, error, failure, quality, quality assurance, root cause, test, analysis, test basis, test case, test completion, test condition, test control, test data, test design, test execution, test implementation, test monitoring, test object, test objective, test planning, test procedure, test result, testing, testware, validation, verification
+coverage, debugging, defect, error, failure, quality, quality assurance, root cause, test, analysis, test basis, test case, test completion, test condition, test control, test data, test design, test execution, test implementation, test monitoring, test object, test objective, test planning, test procedure, test result, testing, testware, validation, verification
 
 **Learning Objectives for Chapter 1:**
 
 **1.1 What is Testing?**  
-FL-1.1.1 (K1) Identify typical objectives of testing  
+FL-1.1.1 (K1) Identify typical test objectives  
 FL-1.1.2 (K2) Differentiate testing from debugging  
 
 **1.2 Why is Testing Necessary?**  
@@ -17,10 +17,10 @@ FL-1.2.3 (K2) Distinguish between root cause, error, defect, and failure
 **1.3 Testing Principles**  
 FL-1.3.1 (K2) Explain the seven testing principles  
 
-**1.4 Test Activities, Test Work Products and Test Roles**  
+**1.4 Test Activities, Testware and Test Roles**  
 FL-1.4.1 (K2) Summarize the different test activities and tasks  
 FL-1.4.2 (K2) Explain the impact of context on the test process  
-FL-1.4.3 (K2) Differentiate the work products that support the test activities  
+FL-1.4.3 (K2) Differentiate the testware that supports the test activities  
 FL-1.4.4 (K2) Explain the value of maintaining traceability  
 FL-1.4.5 (K2) Compare the different roles in testing  
 
