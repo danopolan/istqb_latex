@@ -9,10 +9,7 @@ A common misperception of testing is that it only consists of running tests, i.e
 Some testing does involve the execution of the component or system being tested; such testing is called dynamic testing. Other testing does not involve the execution of the component or system being tested; such testing is called static testing. So, testing also includes reviewing work products such as requirements, user stories, and source code.
 Another common misperception of testing is that it focuses entirely on verification of requirements, user stories, or other specifications. While testing does involve checking whether the system meets specified requirements, it also involves validation, which is checking whether the system will meet user and other stakeholder needs in its operational environment(s).  
 
-
-
 Test activities are organized and carried out differently in different lifecycles (see section 2.1). 
-
 
 ### Typical Objectives of Testing
 For any given project, the objectives of testing may include:  
@@ -24,7 +21,6 @@ For any given project, the objectives of testing may include:
 * To find defects and failures thus reduce the level of risk of inadequate software quality 
 * To provide sufficient information to stakeholders to allow them to make informed decisions, especially regarding the level of quality of the test object 
 * To comply with contractual, legal, or regulatory requirements or standards, and/or to verify the test object’s compliance with such requirements or standards
-
 
 The objectives of testing can vary, depending upon the context of the component or system being tested, the test level, and the software development lifecycle model. These differences may include, for example:
 
