@@ -1,6 +1,6 @@
 # Fundamentals of Testing
 
-Can I write \LaTeX{} code here? Sure you can.  
+<!-- Can I write \LaTeX{} code here? Sure you can.  
 And what about some formulas? That is fine as well.  
 
 If you enable the `hybrid` option, You can mix \LaTeX{} code in Markdown! Inline math equations go in like so: $\omega = d\phi / dt$. Displaymath too:
@@ -17,7 +17,7 @@ Link to [another file](./example-istqb-intro) will redirect you to the the head 
 LaTeX hybrid section links (WORKS FINE)
 Link to \textit{\nameref{sec:seventestingprinciples}} should redirect you to the section Seven Testing Principles in this MD document.  
 Link to \textit{\nameref{sec:sectionno1}} will redirect you to the Section 1 in other MD document.  
-Link to \textit{\nameref{sec:fundamentalsoftesting}} will redirect you to the the head of another MD document.  
+Link to \textit{\nameref{sec:fundamentalsoftesting}} will redirect you to the the head of another MD document.   -->
 
 ## What is Testing?
 
