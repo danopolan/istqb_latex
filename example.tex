@@ -1,10 +1,22 @@
 \documentclass{article}
 
-\usepackage[fencedCode,inlineFootnotes,citations,definitionLists,hashEnumerators,smartEllipses,pipeTables,tableCaptions,hybrid]{markdown}
+\usepackage[
+  citations,
+  definitionLists,
+  fencedCode,
+  hashEnumerators,
+  inlineFootnotes,
+  pipeTables,
+  rawAttribute,
+  smartEllipses,
+  tableCaptions,
+  texMathDollars,
+]{markdown}
 \usepackage[margin=1in,headsep=0.5in]{geometry}
 \usepackage{fancyhdr}
 \usepackage{lipsum}
 \usepackage{graphicx}
+\graphicspath{{./img}{.}}  % Look for images first in ./img and then in ./
 \usepackage{titlesec}
 \usepackage{lastpage}
 \usepackage{enumitem}
@@ -32,7 +44,7 @@
 \fontsize{12}{14}\selectfont Certified Tester \\
 \fontsize{10}{12}\selectfont Foundation Level
 \end{tabular}}
-\chead{\includegraphics[width=2cm]{./img/istqb-logo.png}}
+\chead{\includegraphics[width=2cm]{istqb-logo}}
 \rhead{\fontsize{8}{10}\selectfont International \\ Software Testing \\ Qualifications Board}
 \lfoot{\begin{tabular}[b]{@{}l@{}}
 \fontsize{10}{12}\selectfont Version 2018 V3.1 \\
@@ -52,7 +64,6 @@
 \begin{document}
 \markdownInput{./example-istqb-intro.md}
 \markdownInput{./example-istqb-content.md}
-%\markdownInput{./example.md}
 
 \bibliographystyle{plainnat}
 \bibliography{refs}
