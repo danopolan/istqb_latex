@@ -1,6 +1,7 @@
-\documentclass{article}
+\documentclass{istqb}
 
 \usepackage[
+  import=istqb/syllabus,
   citations,
   definitionLists,
   fencedCode,
@@ -12,15 +13,9 @@
   tableCaptions,
   texMathDollars,
 ]{markdown}
-\usepackage[margin=1in,headsep=0.5in]{geometry}
-\usepackage{fancyhdr}
 \usepackage{lipsum}
-\usepackage{graphicx}
-\graphicspath{{./img}{.}}  % Look for images first in ./img and then in ./
 \usepackage{titlesec}
-\usepackage{lastpage}
 \usepackage{enumitem}
-\usepackage{hyperref}
 
 % % You can re-define how links are rendered: uncomment the following to get hyperlinked text instead of footnotes
 % %%begin novalidate
@@ -37,31 +32,10 @@
 % }}
 % %%end novalidate
 
-% Define the header and footer
-\pagestyle{fancy}
-\fancyhf{}
-\lhead{\begin{tabular}[b]{@{}l@{}}
-\fontsize{12}{14}\selectfont Certified Tester \\
-\fontsize{10}{12}\selectfont Foundation Level
-\end{tabular}}
-\chead{\includegraphics[width=2cm]{istqb-logo}}
-\rhead{\fontsize{8}{10}\selectfont International \\ Software Testing \\ Qualifications Board}
-\lfoot{\begin{tabular}[b]{@{}l@{}}
-\fontsize{10}{12}\selectfont Version 2018 V3.1 \\
-\fontsize{8}{10}\selectfont © International Software Testing Qualifications Board
-\end{tabular}}
-\cfoot{\fontsize{8}{10}\selectfont Page \thepage\ of \pageref{LastPage}}
-\rfoot{\begin{tabular}[b]{@{}r@{}}
-\fontsize{10}{12}\selectfont 11 November 2019 \\
-\fontsize{8}{10}\selectfont For public release
-\end{tabular}}
-\renewcommand{\footrulewidth}{0.4pt}
-
-% Define paragraphs
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{6pt}
+\markdownInput[snippet=istqb/syllabus/metadata]{./example.yml}
 
 \begin{document}
+
 \markdownInput{./example-istqb-intro.md}
 \markdownInput{./example-istqb-content.md}
 
