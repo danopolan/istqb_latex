@@ -6,11 +6,10 @@
   definitionLists,
   fencedCode,
   hashEnumerators,
+  hybrid,
   inlineFootnotes,
-  pipeTables,
   rawAttribute,
   smartEllipses,
-  tableCaptions,
   texMathDollars,
 ]{markdown}
 \usepackage{lipsum}
@@ -32,14 +31,26 @@
 % }}
 % %%end novalidate
 
+% Metadata
 \markdownInput[snippet=istqb/syllabus/metadata]{./example.yml}
 
 \begin{document}
 
+% Table of Contents
+\tableofcontents
+
+% Document Text
 \markdownInput{./example-istqb-intro.md}
 \markdownInput{./example-istqb-content.md}
 
+% Bibliography
 \bibliographystyle{plainnat}
 \bibliography{refs}
+
+% List of Tables
+\listoftables
+
+% List of Figures
+\listoffigures
 
 \end{document}

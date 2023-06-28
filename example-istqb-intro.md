@@ -39,4 +39,20 @@ Aenean porta, augue sit amet fermentum aliquam, ante felis gravida nunc, et bibe
 
 Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi in eros vestibulum, scelerisque diam at, bibendum leo. Fusce consequat fringilla odio, vel facilisis nulla feugiat nec. Integer eu blandit libero, ac interdum ligula. Curabitur in mattis lorem, vel tempus dui. Praesent a est eget lectus laoreet placerat vel eget risus. In eget eros sollicitudin elit vestibulum mattis. Fusce sapien enim, elementum vitae tempus sit amet, laoreet a sapien. Morbi porta consequat felis ut pulvinar. Fusce imperdiet gravida elit, quis ultricies nunc vehicula et. Etiam sed tristique metus, dignissim commodo augue. Mauris tempor turpis quis nunc condimentum porta. Nunc ut quam vitae neque tristique aliquam non sed est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce id augue imperdiet, consectetur leo non, lacinia justo. Nunc pellentesque sit amet quam nec imperdiet.
 
-Proin venenatis quam justo, nec hendrerit magna vulputate sit amet. Proin tristique cursus risus nec efficitur. Sed maximus euismod neque a dictum. Aliquam imperdiet purus sit amet purus euismod venenatis quis sed est. Donec pretium arcu ut mi placerat vulputate. Etiam bibendum nisi ex, vel consequat quam tincidunt sed. Suspendisse fringilla tellus in porttitor aliquet. Duis egestas faucibus posuere. Suspendisse non leo sed odio tincidunt bibendum at a felis. Praesent molestie nulla sed accumsan tristique. Integer tristique laoreet diam, aliquam consequat lorem placerat vel. Fusce auctor diam ut pretium gravida. Aenean rutrum tortor dapibus aliquam feugiat. Nunc efficitur sodales libero. Maecenas id metus quis libero feugiat fermentum.
+Here is an example image that is loaded from the `img/` folder:
+
+ ![example](istqb-logo.png "Here is a caption describing the image."){width=3cm}
+
+You can reference the image from the text of the document as follows: <#figure:example>.
+
+Here is an example table:
+
+ | Right | Left | Default | Center |
+ |------:|:-----|---------|:------:|
+ |   12  |  12  |    12   |    12  |
+ |  123  |  123 |   123   |   123  |
+ |    1  |  1   |   1     |     1  |
+
+ : Here is a caption describing the table. \label{table:label}
+
+You can reference the table from the text of the document as follows: <#table:label>.
