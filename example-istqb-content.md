@@ -11,15 +11,16 @@ I = \int \rho R^{2} dV
 \end{equation}
 ```
 
-Markdown native section links (DOES NOT WORK)  
-Link to [testing principles](#Seven-Testing-Principles) should redirect you to the section Seven Testing Principles in this MD document.  
-Link to [another file section](./example-istqb-intro#section-no1) will redirect you to the Section 1 in other MD document.  
-Link to [another file](./example-istqb-intro) will redirect you to the the head of another MD document.  
+Section links with custom text:
 
-LaTeX hybrid section links (WORKS FINE)
-Link to `\textit{\nameref{sec:seventestingprinciples}}`{=tex} should redirect you to the section Seven Testing Principles in this MD document.  
-Link to `\textit{\nameref{sec:sectionno1}}`{=tex} will redirect you to the Section 1 in other MD document.  
-Link to `\textit{\nameref{sec:fundamentalsoftesting}}`{=tex} will redirect you to the the head of another MD document.  
+- Link to [testing principles](#section:Seven-Testing-Principles) should redirect you to the section Seven Testing Principles in this MD document.  
+- Link to [another file section](#section:section-no1) will redirect you to the Section 1 in other MD document.  
+
+Section references:
+
+- Link to <#section:seven-testing-principles> should redirect you to the section Seven Testing Principles in this MD document.  
+- Link to <#section:section-no1> will redirect you to the Section 1 in other MD document.  
+- Link to <#section:fundamentals-of-testing> will redirect you to the the head of another MD document.  
 
 ## What is Testing?
 
@@ -103,8 +104,8 @@ For example, suppose incorrect interest payments, due to a single line of incorr
 In this example, the customer complaints are effects. The incorrect interest payments are failures. The improper calculation in the code is a defect, and it resulted from the original defect, the ambiguity in the user story. The root cause of the original defect was a lack of knowledge on the part of the product owner, which resulted in the product owner making an error while writing the user story. The process of root
 cause analysis is discussed in ISTQB-CTEL-TM and ISTQB-CTEL-ITP. 
 
-## Seven Testing Principles
-`\label{sec:seventestingprinciples}`{=tex}
+## Seven Testing Principles {#seven-testing-principles}
+
 A number of testing principles have been suggested over the past 50 years and offer general guidelines common for all testing.  
   
 #. **Testing shows the presence of defects, not their absence**  
