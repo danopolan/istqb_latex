@@ -36,14 +36,14 @@ Markdown + LaTeX in Git for ISTQB syllabi
 2023-06-05
 
 * ~~Start LaTeX template development~~
-* Define issues for Vit Novotny to work on
+* ~~Define issues for Vit Novotny to work on~~
 * ~~Cleanup of GitHub repo~~
 * ~~Add ATLaS content into the GitHub repo~~
 
 2023-06-12
 
-* Get details on contract for Vit Novotny (30e/h, approx. 50h for ATLaS, who will paying the invoice)
-* Presentation & Demo for Cross-functional meeting ready
+* ~~Get details on contract for Vit Novotny (approx. 50h for ATLaS, who will paying the invoice)~~
+* ~~Presentation & Demo for Cross-functional meeting ready~~
 
 2023-06-30
 
