@@ -47,17 +47,25 @@ Markdown + LaTeX in Git for ISTQB syllabi
 
 2023-06-30
 
+* Convert ATLaS Body of Knowledge to Markdown
+* Generate PDF for ATLaS Body of Knowledge 
 * Investigate how to print content diff between versions
   * CTFL+P works on GitHub, but it's not ideal
   * Can we compare PDFs?
-* Plan design changes to the ISTQB syllabi
+* * Review what is missing in a LaTeX template compared to the Word template
 
 2023-07-17
 
-* LaTeX template ready and debugged
-* Testing and debugging
+* LaTeX template ready
+* Testing and debugging for ATLaS Syllabus and Body of Knowledge
+* Update ATLaS syllabus and Body of Knowledge to a release version
 
 2023-08-31
 
 * Create build pipeline to create MOBI, EPUB and other e-formats
-* Investigate publishing to Leanpub service
+* ~~Investigate publishing to Leanpub service~~
+
+Other tasks:
+* Create template for [Sample Questions](https://istqb-main-web-prod.s3.amazonaws.com/media/documents/ISTQB_CTFL_Sample-Exam-Questions_v4.0.pdf)
+* Create template for [Sample Answers](https://istqb-main-web-prod.s3.amazonaws.com/media/documents/ISTQB_CTFL_Sample-Exam-Answers_v4.0.pdf)
+* Plan design changes to the ISTQB syllabi
