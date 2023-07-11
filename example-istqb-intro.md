@@ -57,4 +57,4 @@ Here is an example table:
 
 You can reference the table from the text of the document as follows: <#table:label>.
 
-Here are example citations for URLs [@kime:2023], books [@beizer:1990], and journal articles [@novotny:2017] loaded from file `example.bib`. For instructions on writing your own references to `example.bib`, see the Bib\LaTeX{} manual [@kime:2023, Chapter 2]. The full list of references is shown at the end of this document.
+Here are example citations for standards [@iso-iec:2022], ISTQB documents [@istqb:2023], books [@beizer:1990], journal articles [@brykczynski:1992], and web pages [@marick:2013]. For instructions on writing your own references to `example.bib`, see the Bib\LaTeX{} manual [@kime:2023, Chapter 2]. The full list of references is shown at the end of this document.

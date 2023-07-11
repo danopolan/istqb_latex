@@ -20,7 +20,9 @@ Section references:
 
 - Link to <#section:seven-testing-principles> should redirect you to the section Seven Testing Principles in this MD document.  
 - Link to <#section:section-no1> will redirect you to the Section 1 in other MD document.  
-- Link to <#section:fundamentals-of-testing> will redirect you to the the head of another MD document.  
+- Link to <#section:fundamentals-of-testing> will redirect you to the the head of another MD document.
+
+For more information, see the documentation of the Markdown package for \TeX [@novotny:2017].
 
 ## What is Testing?
 
