@@ -182,3 +182,27 @@
 % Table of Contents
 \setcounter{tocdepth}{3}  % Show level 1 up to level 3 of headings.
 \setcounter{section}{-1}  % Start sections from 0.
+
+% Bibliography
+\RequirePackage{csquotes}
+\PassOptionsToPackage{style=iso-authoryear}{biblatex}
+\RequirePackage{biblatex}
+\defbibheading{bibliography}[Bibliography]{%
+  \subsection*{#1}%
+}
+
+%% Entry type filters
+\defbibfilter{standards}{type=report}
+\defbibfilter{istqb-documents}{type=misc and keyword=istqb}
+\defbibfilter{books}{type=book}
+\defbibfilter{articles-and-web-pages}{type=article or type=online}
+
+%% Reference printing
+\newcommand\printistqbbibliography{%
+  \clearpage
+  \section{References}
+  \printbibliography[filter=standards, title=Standards]
+  \printbibliography[filter=istqb-documents, title=ISTQB\textsuperscript{\textregistered} Documents]
+  \printbibliography[filter=books, title=Books]
+  \printbibliography[filter=articles-and-web-pages, title=Articles and Web Pages]
+}

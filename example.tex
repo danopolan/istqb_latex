@@ -2,7 +2,6 @@
 
 \usepackage[
   import=istqb/syllabus,
-  citations,
   definitionLists,
   fencedCode,
   hashEnumerators,
@@ -34,6 +33,9 @@
 % Metadata
 \markdownInput[snippet=istqb/syllabus/metadata]{./example.yml}
 
+% Bibliography
+\addbibresource{./example.bib}
+
 \begin{document}
 
 % Table of Contents
@@ -44,8 +46,7 @@
 \markdownInput{./example-istqb-content.md}
 
 % Bibliography
-\bibliographystyle{plainnat}
-\bibliography{refs}
+\printistqbbibliography
 
 % List of Tables
 \listoftables
